@@ -1,0 +1,73 @@
+:root{
+--Light_red: hsl(0, 100%, 67%);
+--Orangey-yellow: hsl(39, 100%, 56%);
+--Green-teal: hsl(166, 100%, 37%);
+--Cobalt-blue: hsl(234, 85%, 45%);
+
+--Light-slate-blue-background: hsl(252, 100%, 67%);
+--Light-royal-blue-background: hsl(241, 81%, 54%);
+
+--Violet-blue-circle: hsla(256, 72%, 46%, 1);
+--Persian-blue-circle: hsla(241, 72%, 46%, 0);
+
+--White: hsl(0, 0%, 100%);
+--Pale-blue: hsl(221, 100%, 96%);
+--Light-lavender: hsl(241, 100%, 89%);
+--Dark-gray-blue: hsl(224, 30%, 27%);
+
+}
+body{
+    font-family: "Hanken Grotesk";
+    margin: 0;
+}
+.card_blue{
+    width: 275px;
+    height: 270px;
+    padding: 20px 50px 10px 50px;
+    left:50px;
+    border-radius: 0 0 50px 50px;
+    text-align: center;
+    background: linear-gradient(180deg, var(--Light-slate-blue-background), var(--Light-royal-blue-background))
+}
+
+.headBlue{
+    color: var(--Light-lavender);
+    font-weight: 500;
+}
+
+.circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    text-align: center;
+    margin: 20px 0px 20px 90px;
+    background: linear-gradient(0deg, var(--Persian-blue-circle), var(--Violet-blue-circle));
+}
+.number-circle{
+    font-weight: 800;
+    font-size: 40px;
+    color: var(--White);
+}
+
+.comparative{
+    font-weight: 400;
+    color: var(--Pale-blue);
+    font-size: 12px;
+}
+
+.text-circle{
+    padding: 10px 10px 10px 10px;
+}
+
+.titulo-card-blue{
+    color: var(--White);
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+}
+
+.parrafo{
+    color: var(--Light-lavender);
+    font-size: 15px;
+
+}
